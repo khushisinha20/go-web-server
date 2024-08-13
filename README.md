@@ -30,5 +30,17 @@ go run main.go
 ```
 3. The server will start at http://localhost:8080.
 
+## Endpoints
+
+* **/**: Serves static files from the `./static` directory.
+* **/**hello**: Returns a "Hello!" message.
+  * Method: GET
+  * Returns: "Hello!"
+* **/**form**: Handles form submissions via POST requests.
+  * Method: POST
+  * Parameters:
+    * name: The name of the person submitting the form.
+    * address: The address of the person submitting the form.
+  * Returns: A response with the submitted name and address.
 
 
