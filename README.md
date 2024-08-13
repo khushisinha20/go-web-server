@@ -33,10 +33,10 @@ go run main.go
 ## Endpoints
 
 * **/**: Serves static files from the `./static` directory.
-* **/**hello**: Returns a "Hello!" message.
+* **/hello**: Returns a "Hello!" message.
   * Method: GET
   * Returns: "Hello!"
-* **/**form**: Handles form submissions via POST requests.
+* **/form**: Handles form submissions via POST requests.
   * Method: POST
   * Parameters:
     * name: The name of the person submitting the form.
